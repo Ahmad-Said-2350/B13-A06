@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Pro",
+    "description": "Professional resume builder with AI-powered content suggestions and industry-specific templates.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "100+ modern templates",
+      "ATS optimization",
+      "AI content suggestions",
+      "Export to PDF & Word",
+      "LinkedIn profile sync"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "Cover Letter AI",
+    "description": "Create personalized, compelling cover letters in seconds using advanced AI.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Job-specific customization",
+      "Tone adjustment",
+      "Multiple versions",
+      "Grammar & style check",
+      "Instant generation"
+    ],
+    "icon": "✉️"
+  },
+  {
+    "id": 3,
+    "name": "Career Bundle",
+    "description": "Complete package including Resume, Cover Letter, and LinkedIn optimization.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Full resume builder",
+      "AI cover letter writer",
+      "LinkedIn profile optimizer",
+      "Interview preparation guide",
+      "Lifetime updates"
+    ],
+    "icon": "🎯"
+  },
+  {
+    "id": 4,
+    "name": "Premium Templates",
+    "description": "Access to exclusive designer-made resume and cover letter templates.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "",
+    "tagType": "",
+    "features": [
+      "200+ premium templates",
+      "Monthly new designs",
+      "Industry-specific layouts",
+      "Color customization",
+      "One-click apply"
+    ],
+    "icon": "🎨"
+  },
+  {
+    "id": 5,
+    "name": "Job Tracker Pro",
+    "description": "Smart job application tracker with follow-up reminders and analytics.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Unlimited job tracking",
+      "Smart follow-up reminders",
+      "Application analytics",
+      "Interview scheduler",
+      "Status dashboard"
+    ],
+    "icon": "📊"
+  },
+  {
+    "id": 6,
+    "name": "AI Interview Coach",
+    "description": "Practice interviews with real-time AI feedback and performance scoring.",
+    "price": 79,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited mock interviews",
+      "Real-time AI feedback",
+      "Performance analytics",
+      "Common question bank",
+      "Industry-specific questions"
+    ],
+    "icon": "🗣️"
+  },
+  {
+    "id": 7,
+    "name": "LinkedIn Optimizer",
+    "description": "Boost your LinkedIn profile with AI-powered optimization and content suggestions.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "",
+    "tagType": "",
+    "features": [
+      "Profile strength analysis",
+      "Headline & summary writer",
+      "Experience optimization",
+      "Keyword suggestions",
+      "Content ideas generator"
+    ],
+    "icon": "💼"
+  },
+  {
+    "id": 8,
+    "name": "Ultimate Career Pass",
+    "description": "Lifetime access to all current and future career tools.",
+    "price": 149,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "All resume & cover letter tools",
+      "Job tracker lifetime access",
+      "AI interview coach",
+      "LinkedIn optimizer",
+      "All future tools included"
+    ],
+    "icon": "🚀"
+  }
+]

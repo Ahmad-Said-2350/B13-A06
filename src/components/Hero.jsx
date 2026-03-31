@@ -18,7 +18,7 @@ class Hero extends Component {
         <div className="frist   flex justify-start items-center gap-2 ">
 
 <div className="badge badge-primary badge-xs"></div>
-<h5 className='bg-linear-to-t from-[#4F39F6]  to-[#9514FA] bg-clip-text text-transparent'>New: AI-Powered Tools Available</h5>
+<h5 className='bg-linear-to-t from-[#9514FA]  to-[#4F39F6]  bg-clip-text text-transparent'>New: AI-Powered Tools Available</h5>
 
         </div>
         
@@ -30,8 +30,8 @@ class Hero extends Component {
       </p>
       
       <div className=" flex justify-start items-center gap-4">
-        <button className="btn btn-primary rounded-full">Explore Products</button>
-      <button className="btn btn-primary btn-outline rounded-full"> <CiPlay1 />
+        <button className="btn text-[#ffffff] rounded-full bg-linear-to-t from-[#9514FA]  to-[#4F39F6] ">Explore Products</button>
+      <button className="btn btn-primary btn-outline rounded-full "> <CiPlay1 />
 Watch Demo</button>
       
       </div>
