@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "name": "Resume Pro",
-    "description": "Professional resume builder with AI-powered content suggestions and industry-specific templates.",
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
     "price": 29,
     "period": "one-time",
     "tag": "Best Seller",
@@ -13,8 +13,9 @@
       "AI content suggestions",
       "Export to PDF & Word",
       "LinkedIn profile sync"
+      
     ],
-    "icon": "📄"
+    "icon": "https://i.ibb.co.com/m5GBn5KG/writing-2327400-1.png"
   },
   {
     "id": 2,
@@ -25,13 +26,14 @@
     "tag": "New",
     "tagType": "new",
     "features": [
-      "Job-specific customization",
+      
+     "Job-specific customization",
       "Tone adjustment",
       "Multiple versions",
       "Grammar & style check",
       "Instant generation"
     ],
-    "icon": "✉️"
+    "icon": "https://i.ibb.co.com/chXDyVHQ/design-tool.png"
   },
   {
     "id": 3,
@@ -48,7 +50,7 @@
       "Interview preparation guide",
       "Lifetime updates"
     ],
-    "icon": "🎯"
+    "icon": "https://i.ibb.co.com/TBJfgjdm/portfolio.png"
   },
   {
     "id": 4,
@@ -56,8 +58,8 @@
     "description": "Access to exclusive designer-made resume and cover letter templates.",
     "price": 9,
     "period": "monthly",
-    "tag": "",
-    "tagType": "",
+    "tag": "New",
+    "tagType": "New",
     "features": [
       "200+ premium templates",
       "Monthly new designs",
@@ -65,7 +67,7 @@
       "Color customization",
       "One-click apply"
     ],
-    "icon": "🎨"
+    "icon": "https://i.ibb.co.com/0VKdRrt8/operation.png"
   },
   {
     "id": 5,
@@ -82,7 +84,7 @@
       "Interview scheduler",
       "Status dashboard"
     ],
-    "icon": "📊"
+    "icon": "https://i.ibb.co.com/jvkksy6H/social-media.png"
   },
   {
     "id": 6,
@@ -99,40 +101,7 @@
       "Common question bank",
       "Industry-specific questions"
     ],
-    "icon": "🗣️"
-  },
-  {
-    "id": 7,
-    "name": "LinkedIn Optimizer",
-    "description": "Boost your LinkedIn profile with AI-powered optimization and content suggestions.",
-    "price": 15,
-    "period": "one-time",
-    "tag": "",
-    "tagType": "",
-    "features": [
-      "Profile strength analysis",
-      "Headline & summary writer",
-      "Experience optimization",
-      "Keyword suggestions",
-      "Content ideas generator"
-    ],
-    "icon": "💼"
-  },
-  {
-    "id": 8,
-    "name": "Ultimate Career Pass",
-    "description": "Lifetime access to all current and future career tools.",
-    "price": 149,
-    "period": "one-time",
-    "tag": "Popular",
-    "tagType": "popular",
-    "features": [
-      "All resume & cover letter tools",
-      "Job tracker lifetime access",
-      "AI interview coach",
-      "LinkedIn optimizer",
-      "All future tools included"
-    ],
-    "icon": "🚀"
+    "icon": "https://i.ibb.co.com/zH7cpWxL/camera-8775444-1.png"
   }
+  
 ]
