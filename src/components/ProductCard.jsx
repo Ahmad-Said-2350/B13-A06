@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const ProductCard = ({ product, onAddToCart }) => {
   return (
     <div className="card mt-10 bg-white border border-gray-100 shadow-sm rounded-3xl p-6 hover:shadow-md transition-all">

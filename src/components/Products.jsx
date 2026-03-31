@@ -35,6 +35,7 @@ const Products = ({
         </button>
         <button
           onClick={() => setActiveSection("cart")}
+          
           className={`btn rounded-full px-10 font-bold border-none transition-all ${
             activeSection === "cart" ? "bg-[#8B1FFF] text-white" : "bg-white text-gray-500 border border-gray-200"
           }`}
