@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProductCard = ({ product, onAddToCart }) => {
   return (
-    <div className="card bg-white border border-gray-100 shadow-sm rounded-3xl p-6 hover:shadow-md transition-all">
+    <div className="card mt-10 bg-white border border-gray-100 shadow-sm rounded-3xl p-6 hover:shadow-md transition-all">
      
       <div className="flex justify-between items-start mb-4">
         <div className="bg-gray-50 p-3 rounded-2xl">

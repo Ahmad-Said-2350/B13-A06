@@ -3,7 +3,7 @@ import logo from '../assets/products/DigiToolslllll.png'
 
 const Footer = () => {
     return (
-        <footer className="footer  sm:footer-horizontal bg-[#101727] text-base-content p-10">
+        <footer className="footer mt-7  sm:footer-horizontal bg-[#101727] text-base-content p-10">
 
 
    <div className="div">

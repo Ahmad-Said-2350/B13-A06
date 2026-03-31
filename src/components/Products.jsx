@@ -11,12 +11,12 @@ const Products = ({
   const totalPrice = cartItems.reduce((sum, item) => sum + item.price, 0);
 
   return (
-    <div className="container mx-auto px-4 py-16">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
 
 
     <div className="con mt-30 space-y-8 mb-10">
 
-<h2 className=" text-center text-[#001931] text-5xl font-extrabold">Premium Digital Tools</h2>
+<h2 className=" text-3xl text-center md:text-5xl font-black text-[#001931] mb-4">Premium Digital Tools</h2>
             <p className=" text-center text-[#627382] text-base leading-5">Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
             
            
@@ -24,7 +24,7 @@ const Products = ({
 
 
      
-      <div className="flex justify-center gap-4 mb-16">
+      <div className="flex flex-wrap justify-center  mt-16">
         <button
           onClick={() => setActiveSection("products")}
           className={`btn rounded-full px-10 font-bold border-none transition-all ${
@@ -45,15 +45,15 @@ const Products = ({
 
       {activeSection === "products" ? (
       
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
           {data.map((product) => (
             <ProductCard key={product.id} product={product} onAddToCart={onAddToCart} />
           ))}
         </div>
       ) : (
         
-        <div className="max-w-3xl mx-auto bg-white p-6 rounded-2xl shadow-sm border border-blue-50">
-          <div className="border-b border-dotted border-blue-200 pb-2 mb-6">
+        <div className="w-full mt-5 max-w-3xl mx-auto bg-white p-5 md:p-10 rounded-3xl shadow-xl border">
+          <div className="border-b border-outline border-blue-200 pb-2 mb-6">
             <h3 className="text-xl font-bold text-gray-800">Your Cart</h3>
           </div>
 
@@ -64,7 +64,7 @@ const Products = ({
           ) : (
             <div className="space-y-3">
               {cartItems.map((item, index) => (
-                <div key={index} className="flex justify-between items-center p-4 bg-white rounded-xl border border-dotted border-blue-200 transition-colors">
+                <div key={index} className="flex justify-between items-center p-4 bg-white rounded-xl border border-outline border-blue-200 transition-colors">
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 bg-gray-50 rounded-full flex items-center justify-center">
                       <img src={item.icon} alt={item.name} className="w-8 h-8 object-contain" />
@@ -84,9 +84,9 @@ const Products = ({
               ))}
 
               
-              <div className="flex justify-between items-center border-t border-dotted border-blue-300 pt-5 mt-6">
+              <div className="flex justify-between items-center border-t border-outline border-blue-300 pt-5 mt-6">
                 <span className="text-gray-400 text-sm italic">Total:</span>
-                <span className="text-2xl font-black text-gray-900">${totalPrice.toFixed(0)}</span>
+                <span className="text-2xl md:text-3xl font-black text-[#222020]">${totalPrice.toFixed(0)}</span>
               </div>
 
              

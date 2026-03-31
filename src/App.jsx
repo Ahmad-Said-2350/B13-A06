@@ -7,6 +7,7 @@ import Stat from "./components/Stat";
 import Footer from "./components/Footer";
 import Steps from "./components/Steps";
 import Products from "./components/Products";
+import Simple from "./components/Simple";
 
 
 const fetchProducts = async () => {
@@ -60,7 +61,7 @@ function App() {
         </Products>
       </Suspense>
        <Steps></Steps>
-      
+      <Simple></Simple>
       <Footer></Footer>
       
     </div>
