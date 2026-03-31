@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product, onAddToCart }) => {
   return (
     <div className="card bg-white border border-gray-100 shadow-sm rounded-3xl p-6 hover:shadow-md transition-all">
      
@@ -45,7 +45,9 @@ const ProductCard = ({ product }) => {
 
       
       <div className="card-actions">
-        <button className="btn border-none bg-[#7C3AED] hover:bg-[#6D28D9] text-white w-full rounded-full normal-case text-lg font-semibold">
+        <button 
+         onClick={() => onAddToCart(product)}
+         className="btn border-none bg-[#7C3AED] hover:bg-[#6D28D9] text-white w-full rounded-full normal-case text-lg font-semibold">
           Buy Now
         </button>
       </div>

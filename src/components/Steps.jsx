@@ -17,8 +17,8 @@ const Steps = () => {
 
     <div className="con mt-30 space-y-8 mb-10">
 
-<h2 className=" text-center text-[#001931] text-5xl font-extrabold">Premium Digital Tools</h2>
-            <p className=" text-center text-[#627382] text-base leading-5">Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
+<h2 className=" text-center text-[#001931] text-5xl font-extrabold">Get Started in 3 Steps</h2>
+            <p className=" text-center text-[#627382] text-base leading-5">Start using premium digital tools in minutes, not hours.</p>
             
            
     </div>
