@@ -33,20 +33,12 @@ const ProductCard = ({ product }) => {
 
       
       <ul className="mt-6 space-y-3 mb-8">
-        
-        <li className="flex items-center gap-2 text-sm text-gray-600">
-          <span className="text-green-500">✔ </span>{product.features}
-        </li>
-
-        <li className="flex items-center gap-2 text-sm text-gray-600">
-          <span className="text-green-500">✔ </span>{product.features}
-        </li>
-
-        <li className="flex items-center gap-2 text-sm text-gray-600">
-          <span className="text-green-500">✔ </span>{product.features}
-        </li>
-        
-      </ul>
+  {product.features.map((feature, index) => (
+    <li key={index} className="flex items-center gap-2 text-sm text-gray-600">
+      <span className="text-green-500">✔ </span>{feature}
+    </li>
+  ))}
+</ul>
 
 
      
