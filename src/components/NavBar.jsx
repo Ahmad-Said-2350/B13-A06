@@ -38,7 +38,7 @@ const NavBar = ({cartItems}) => {
           </ul>
         </div>
 
-        <div className="flex items-center justify-end gap-3 md:gap-6 lg:flex-1">
+        <div className="flex items-center justify-end gap-3 md:gap-8 lg:flex-1">
           
           <button className="flex items-center font-semibold cursor-pointer gap-1">
           <span className="relative">
