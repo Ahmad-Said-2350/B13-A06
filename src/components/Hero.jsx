@@ -17,12 +17,18 @@ class Hero extends Component {
           </div>
 
           <div className="w-full lg:w-1/2 text-center lg:text-left">
-            <div className="flex justify-center lg:justify-start items-center gap-2 mb-4">
-              <div className="badge badge-primary badge-xs"></div>
-              <h5 className=' text-sm md:text-base font-semibold bg-linear-to-r from-[#9514FA] to-[#4F39F6] bg-clip-text text-transparent'>
-                New: AI-Powered Tools Available
-              </h5>
+            <div className="flex justify-center lg:justify-start mb-6">
+              <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-[#EBEBFF] border border-[#D1D1FF]">
+                <div className="w-3 h-3 rounded-full bg-linear-to-r from-[#9514FA] to-[#4F39F6] shadow-[0_0_8px_rgba(149,20,250,0.6)]"></div>
+                <h5 className='text-sm md:text-base font-bold bg-linear-to-r from-[#9514FA] to-[#4F39F6] bg-clip-text text-transparent'>
+                  New: AI-Powered Tools Available
+                </h5>
+              </div>
             </div>
+
+
+
+            
 
             <h1 className="text-4xl md:text-6xl lg:text-[72px] font-extrabold text-[#101727] leading-[1.1]">
               Supercharge Your <br className="hidden md:block" /> Digital Workflow

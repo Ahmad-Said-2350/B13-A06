@@ -19,7 +19,7 @@ const Simple = () => {
                             <h2 className="text-2xl font-bold text-[#101727]">Starter</h2>
                             <span className="text-xl font-bold text-purple-600">$0/mo</span>
                         </div>
-                        <ul className="space-y-4 text-sm flex-grow">
+                        <ul className="space-y-4 text-sm grow">
                             <FeatureItem text="High-resolution image generation" active={true} />
                             <FeatureItem text="Customizable style templates" active={true} />
                             <FeatureItem text="Batch processing capabilities" active={true} />
@@ -35,15 +35,15 @@ const Simple = () => {
 
                 {/* Pro Plan (Highlighted) */}
                 <div className="card shadow-2xl flex flex-col h-full relative overflow-hidden group">
-                    <div className="card-body p-8 bg-gradient-to-b from-[#9514FA] to-[#4F39F6] text-white rounded-2xl">
-                        <div className="absolute top-4 right-4">
-                            <span className="badge badge-warning badge-sm font-bold p-3">Most Popular</span>
+                    <div className="card-body p-8 bg-linear-to-b from-[#9514FA] to-[#4F39F6] text-white rounded-2xl">
+                        <div className="absolute top-1 right-50">
+                            <span className="badge badge-warning badge-sm font-bold p-3 ">Most Popular</span>
                         </div>
                         <div className="flex justify-between items-center mb-6">
                             <h2 className="text-2xl font-bold">Pro</h2>
                             <span className="text-xl font-bold">$29/mo</span>
                         </div>
-                        <ul className="space-y-4 text-sm flex-grow">
+                        <ul className="space-y-4 text-sm grow">
                             <FeatureItem text="High-resolution image generation" active={true} light={true} />
                             <FeatureItem text="Customizable style templates" active={true} light={true} />
                             <FeatureItem text="Batch processing capabilities" active={true} light={true} />
@@ -64,7 +64,7 @@ const Simple = () => {
                             <h2 className="text-2xl font-bold text-[#101727]">Enterprise</h2>
                             <span className="text-xl font-bold text-purple-600">$99/mo</span>
                         </div>
-                        <ul className="space-y-4 text-sm flex-grow">
+                        <ul className="space-y-4 text-sm grow">
                             <FeatureItem text="High-resolution image generation" active={true} />
                             <FeatureItem text="Customizable style templates" active={true} />
                             <FeatureItem text="Batch processing capabilities" active={true} />
@@ -73,7 +73,7 @@ const Simple = () => {
                             <FeatureItem text="Real-time collaboration tools" active={true} />
                         </ul>
                         <div className="mt-8">
-                            <button className="btn text-white rounded-full bg-gradient-to-r from-[#9514FA] to-[#4F39F6] border-none w-full hover:scale-105 transition-transform">Contact Sales</button>
+                            <button className="btn text-white rounded-full bg-linear-to-r from-[#9514FA] to-[#4F39F6] border-none w-full hover:scale-105 transition-transform">Contact Sales</button>
                         </div>
                     </div>
                 </div>

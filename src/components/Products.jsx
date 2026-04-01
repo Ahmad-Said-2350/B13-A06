@@ -1,5 +1,6 @@
 import { use } from "react";
 import ProductCard from "./ProductCard";
+import { BsCart2 } from "react-icons/bs";
 
 const Products = ({ 
   promisProducts, onAddToCart, onRemoveFromCart, onCheckout, 
@@ -59,8 +60,9 @@ const Products = ({
           </div>
 
           {cartItems.length === 0 ? (
-            <div className="text-center py-20">
-              <p className="text-gray-400 italic">Cart is empty</p>
+            <div className="text-center py-20 flex justify-center items-center gap-4 ">
+              <p className="text-gray-400 italic">Your Cart is empty</p>
+              <span> <BsCart2 /></span>
             </div>
           ) : (
             <div className="space-y-3">
