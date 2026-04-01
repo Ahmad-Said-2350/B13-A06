@@ -8,11 +8,11 @@ import Footer from "./components/Footer";
 import Steps from "./components/Steps";
 import Products from "./components/Products";
 import Simple from "./components/Simple";
-
-
+import { ToastContainer, toast } from 'react-toastify';
+import CTASection from "./components/CTASectio";
+  
 const fetchProducts = async () => {
   const res = await fetch('/productc.json'); 
-  if (!res.ok) throw new Error("Failed to fetch");
   return res.json();
 };
 
@@ -22,8 +22,11 @@ function App() {
   const [cartItems, setCartItems] = useState([]);
   const [activeSection, setActiveSection] = useState("products");
 
+const notify = () => toast("Item added to cart.");
+
   
   const handleAddToCart = (product) => {
+    notify()
     setCartItems((prev) => [...prev, product]);
   };
 
@@ -36,6 +39,7 @@ function App() {
   const clearCart = () => {
     setCartItems([]);
   };
+
 
 
   
@@ -64,6 +68,7 @@ function App() {
       </Suspense>
        <Steps></Steps>
       <Simple></Simple>
+      <CTASection></CTASection>
       <Footer></Footer>
       
     </div>

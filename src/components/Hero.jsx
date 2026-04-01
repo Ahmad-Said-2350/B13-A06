@@ -12,13 +12,13 @@ class Hero extends Component {
             <img 
               src={img} 
               alt="Banner" 
-              className="w-full max-w-sm md:max-w-md lg:max-w-full h-auto drop-shadow-2xl" 
+              className="w-full lg:w-[70%] flex justify-center lg:justify-end" 
             />
           </div>
 
           <div className="w-full lg:w-1/2 text-center lg:text-left">
             <div className="flex justify-center lg:justify-start items-center gap-2 mb-4">
-              <div className="badge badge-primary badge-xs "></div>
+              <div className="badge badge-primary badge-xs"></div>
               <h5 className=' text-sm md:text-base font-semibold bg-linear-to-r from-[#9514FA] to-[#4F39F6] bg-clip-text text-transparent'>
                 New: AI-Powered Tools Available
               </h5>

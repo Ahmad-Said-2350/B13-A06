@@ -47,7 +47,7 @@ const NavBar = () => {
              <button className='text-gray-700 hover:text-primary font-semibold transition-colors'>Login</button>
           </div>
 
-          <a className="btn btn-primary btn-sm md:btn-md rounded-full px-5 md:px-8 font-bold border-none">
+          <a className="btn bg-linear-to-r from-[#9514FA] to-[#4F39F6] text-[#FFFFFF] btn-sm md:btn-md rounded-full px-5 md:px-8 font-bold border-none">
             Get Started
           </a>
         </div>
