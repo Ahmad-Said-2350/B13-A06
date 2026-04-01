@@ -24,7 +24,7 @@ function App() {
 
 const notify = () => toast("Item added to cart.");
 
-  
+
   const handleAddToCart = (product) => {
     notify()
     setCartItems((prev) => [...prev, product]);
@@ -32,11 +32,13 @@ const notify = () => toast("Item added to cart.");
 
   
   const handleRemoveFromCart = (indexToRemove) => {
+    toast("Item removed");
     setCartItems((prev) => prev.filter((_, index) => index !== indexToRemove));
   };
 
   
   const clearCart = () => {
+    toast("Checkout successful");
     setCartItems([]);
   };
 
