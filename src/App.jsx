@@ -46,7 +46,7 @@ const notify = () => toast("Item added to cart.");
   return (
     <div className="min-h-screen bg-gray-50">
      
-      <NavBar></NavBar>
+      <NavBar cartItems={cartItems}></NavBar>
       <Hero></Hero>
       <Stat></Stat>
      

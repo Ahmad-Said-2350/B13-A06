@@ -1,8 +1,8 @@
 import React from 'react';
 import logoImg from '../assets/products/DigiTools.png'
-import cartIcon from '../assets/products/shopping-cart.png'
+import { FiShoppingCart } from "react-icons/fi";
 
-const NavBar = () => {
+const NavBar = ({cartItems}) => {
   const links = (
     <>
       <li className="hover:text-primary cursor-pointer transition-colors duration-200">Products</li>
@@ -39,10 +39,18 @@ const NavBar = () => {
         </div>
 
         <div className="flex items-center justify-end gap-3 md:gap-6 lg:flex-1">
-          <div className="relative cursor-pointer hover:scale-110 transition-transform">
-            <img src={cartIcon} alt="Cart" className="w-6 h-6" />
-          </div>
           
+          <button className="flex items-center font-semibold cursor-pointer gap-1">
+          <span className="relative">
+            {" "}
+            <span className="absolute left-6 -top-3 bg-red-500 w-5 h-5 flex items-center justify-center rounded-full text-white text-sm">
+              {
+                cartItems.length
+              }
+            </span>
+            <FiShoppingCart className="text-3xl" />
+          </span>{" "}
+        </button>
           <div className='hidden xl:block'>
              <button className='text-gray-700 hover:text-primary font-semibold transition-colors'>Login</button>
           </div>

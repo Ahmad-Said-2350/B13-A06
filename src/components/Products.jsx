@@ -56,7 +56,7 @@ const Products = ({
         
         <div className="w-full mt-5 max-w-3xl mx-auto bg-white p-5 md:p-10 rounded-3xl shadow-xl border">
           <div className="border-b border-outline border-blue-200 pb-2 mb-6">
-            <h3 className="text-xl font-bold text-gray-800">Your Cart</h3>
+            <h3 className="text-xl font-bold text-gray-800"> Cart</h3>
           </div>
 
           {cartItems.length === 0 ? (
