@@ -1,107 +1,106 @@
 [
   {
     "id": 1,
-    "name": "AI Writing Pro",
-    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
-    "price": 29,
-    "period": "one-time",
+    "name": "ChatGPT Pro",
+    "description": "Advanced AI assistant for writing, coding, learning, and productivity tasks.",
+    "price": 20,
+    "period": "monthly",
     "tag": "Best Seller",
     "tagType": "best seller",
     "features": [
-      "100+ modern templates",
-      "ATS optimization",
-      "AI content suggestions",
-      "Export to PDF & Word",
-      "LinkedIn profile sync"
-      
+      "AI content generation",
+      "Code assistance",
+      "Image & file analysis",
+      "Multi-language support",
+      "24/7 smart assistance"
     ],
-    "icon": "https://i.ibb.co.com/m5GBn5KG/writing-2327400-1.png"
+    "icon": "https://i.ibb.co.com/wFgKqnSz/11865326.png"
   },
   {
     "id": 2,
-    "name": "Cover Letter AI",
-    "description": "Create personalized, compelling cover letters in seconds using advanced AI.",
-    "price": 19,
-    "period": "one-time",
-    "tag": "New",
-    "tagType": "new",
-    "features": [
-      
-     "Job-specific customization",
-      "Tone adjustment",
-      "Multiple versions",
-      "Grammar & style check",
-      "Instant generation"
-    ],
-    "icon": "https://i.ibb.co.com/chXDyVHQ/design-tool.png"
-  },
-  {
-    "id": 3,
-    "name": "Career Bundle",
-    "description": "Complete package including Resume, Cover Letter, and LinkedIn optimization.",
-    "price": 49,
-    "period": "one-time",
+    "name": "Gemini AI",
+    "description": "Google-powered AI tool for research, writing, and smart productivity workflows.",
+    "price": 15,
+    "period": "monthly",
     "tag": "Popular",
     "tagType": "popular",
     "features": [
-      "Full resume builder",
-      "AI cover letter writer",
-      "LinkedIn profile optimizer",
-      "Interview preparation guide",
-      "Lifetime updates"
+      "Deep research support",
+      "Google integration",
+      "Real-time answers",
+      "Smart summarization",
+      "Multi-modal input"
     ],
-    "icon": "https://i.ibb.co.com/1f0BftBp/portfolio.png"
+    "icon": "https://i.ibb.co.com/fVdGg9Gw/Google-Gemini-icon-2025-svg.png"
   },
   {
-    "id": 4,
-    "name": "Premium Templates",
-    "description": "Access to exclusive designer-made resume and cover letter templates.",
-    "price": 9,
-    "period": "monthly",
-    "tag": "New",
-    "tagType": "New",
-    "features": [
-      "200+ premium templates",
-      "Monthly new designs",
-      "Industry-specific layouts",
-      "Color customization",
-      "One-click apply"
-    ],
-    "icon": "https://i.ibb.co.com/0VKdRrt8/operation.png"
-  },
-  {
-    "id": 5,
-    "name": "Job Tracker Pro",
-    "description": "Smart job application tracker with follow-up reminders and analytics.",
-    "price": 12,
+    "id": 3,
+    "name": "Cursor IDE",
+    "description": "AI-powered code editor designed to boost developer productivity.",
+    "price": 30,
     "period": "monthly",
     "tag": "New",
     "tagType": "new",
     "features": [
-      "Unlimited job tracking",
-      "Smart follow-up reminders",
-      "Application analytics",
-      "Interview scheduler",
-      "Status dashboard"
+      "AI code completion",
+      "Chat with codebase",
+      "Bug fixing suggestions",
+      "Code explanation",
+      "Fast development workflow"
     ],
-    "icon": "https://i.ibb.co.com/jvkksy6H/social-media.png"
+    "icon": "https://i.ibb.co.com/pjcnqNyK/cursor-ai.png"
   },
   {
-    "id": 6,
-    "name": "AI Interview Coach",
-    "description": "Practice interviews with real-time AI feedback and performance scoring.",
-    "price": 79,
-    "period": "yearly",
+    "id": 4,
+    "name": "Notion AI",
+    "description": "Smart workspace with AI features for writing, planning, and collaboration.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "AI writing assistant",
+      "Task & project management",
+      "Notes & docs",
+      "Team collaboration",
+      "Content summarization"
+    ],
+    "icon": "https://i.ibb.co.com/QFrkjVbS/Notion-app-logo.png"
+  },
+  {
+    "id": 5,
+    "name": "Midjourney AI",
+    "description": "Create stunning AI-generated images and artwork from text prompts.",
+    "price": 25,
+    "period": "monthly",
     "tag": "Best Seller",
     "tagType": "best seller",
     "features": [
-      "Unlimited mock interviews",
-      "Real-time AI feedback",
-      "Performance analytics",
-      "Common question bank",
-      "Industry-specific questions"
+      "Text-to-image generation",
+      "High-quality artwork",
+      "Creative styles",
+      "Fast rendering",
+      "Community gallery"
     ],
-    "icon": "https://i.ibb.co.com/zH7cpWxL/camera-8775444-1.png"
+    "icon": "https://i.ibb.co.com/Kjpv1j1M/midjourney-blue-icon.webp"
+  },
+  {
+    "id": 6,
+    "name": "Grammarly Premium",
+    "description": "AI-powered writing assistant for grammar, clarity, and tone improvement.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Grammar correction",
+      "Tone detection",
+      "Clarity suggestions",
+      "Plagiarism checker",
+      "Real-time writing feedback"
+    ],
+    "icon": "https://i.ibb.co.com/qLJmj6zW/grammarly-dvpz426mnbg6hfe242f5i.webp"
   }
-  
+
+
 ]
